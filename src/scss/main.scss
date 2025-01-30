@@ -12,3 +12,53 @@ img,
 video {
   display: block;
 }
+
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 18px;
+}
+
+h1 {
+  color: #f00;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+i {
+  color: #f00;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+}
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  border: 2px solid #f00;
+}
+
+.like {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1542px 1029px 50px;
+  align-items: center;
+}
+
+.active .button {
+  background-color: red;
+  h1,
+  p,
+  i {
+    color: #fff;
+  }
+}
